@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(38, 0, 107);
+    font-family: "arial", serif;
+}
+
+#container {
+    width: 1100px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+header {
+    position: relative;
+    background-color: rgb(38, 0, 107);
+}
+
+h1{ 
+    color: #F5F5F5;
+    font-size: 270%;
+    width: 900px;
+    height: 170px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid red;
+}
+
+#video {
+    height: 500px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+#contents {
+    margin: auto;
+    background-color: #fff;
+    min-height: 700px;
+}
+
+#position {
+    width: 900px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+#title_inicial {
+    font-weight: bold;
+    color: #373737;
+    margin-left: 10px;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.linha {
+    width: 900px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #DEDEDEF5;
+    border-bottom: none;
+}
+
+.label {
+    overflow: auto;
+    position: relative;
+    height: auto;
+    width: max-content;
+    margin-left: 5px;
+}
+
+.picture {
+    float: left;
+    display: block;
+    width: 60px;
+}
+
+.profile_picture {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 2px 10px 0px 5px;
+    float: left;
+}
+
+.coments {
+    display: block;
+    border-radius: 20px;
+    background-color: #F5F5F4;
+    float: left;
+    padding: 0px 15px 10px 0px;
+}
+
+.profile_name {
+    position: relative;
+    display: block;
+    color: #365899;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    margin: 8px 0px 0px 15px;
+}
+
+.description_M {
+    position: relative;
+    margin-left: 15px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 90%;
+    max-width: 685px;
+    color: #333;
+}
+
+.description_P {
+    position: relative;
+    margin-left: 15px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 90%;
+    max-width: 630px;
+    color: #333;
+}
+
+.interage {
+    position: relative;
+    float: left;
+    clear: both;
+    margin-left: 85px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: inherit;
+    color: #93979f;
+    cursor: pointer;
+}
+
+.reactions {
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px #808080;
+    margin-bottom: 5px;
+}
+
+.image {
+    margin: 2px 4px -1px 5px;
+    float: left;
+}
+
+.picture_image {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin-left: -1px; 
+}
+
+.number {
+    float: left;
+    font-family: inherit;
+    color: #93979f;
+    font-size: 13px;
+    margin: 3px 5px 0px 0px;
+}
+
+.answers {
+    position: relative;
+    clear: both;
+    float: left;
+    margin-left: 65px;
+    border-left: 1px solid #DEDEDEF5;
+    margin-bottom: 17px;
+}
+
+#icon {
+    float: left;
+    width: 25px;
+    margin-left: 30px;
+}
+
+#baseboard {
+    /* height: 350px; */
+    background-color: #F5F5F5;
+    color: #989BA6;
+    padding-top: 50px;
+}
+
+#information {
+    margin: auto;
+    width: 750px;
+    font-size: 12px;
+    padding-bottom: 25px; 
+}
+
+.center {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+#rights {
+    float: right;
+    color: black;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #container {
+        width: 720px;
+    }
+    
+    h1{ 
+        font-size: 220%;
+        width: 720px;
+        height: 120px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 1px solid red;
+    }
+    
+    #video {
+        width: 720px;
+        height: 500px;
+    }
+    
+    #contents {
+        width: 720px;
+        height: 700px;
+        margin-top: 0px;
+    }
+
+    #position {
+        width: 720px;
+        margin-top: 120px;
+        margin-left: 35px;
+    }
+
+    #title_inicial {
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    
+    .linha {
+        width: 640px;
+        margin-bottom: 15px;
+    }
+
+    .label {
+        margin-left: 2px;
+    }
+
+    .picture {
+        width: 50px;
+    }
+    
+    .profile_picture {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .coments {
+        border-radius: 20px;
+        padding: 0px 15px 10px 0px;
+    }
+    
+    .profile_name {
+        font-size: 13px;
+        margin: 8px 0px 0px 15px;
+    }
+
+    
+    .description_M {
+        margin-left: 15px;
+        font-size: 80%;
+        max-width: 520px;
+    }
+    
+    .description_P {
+        margin-left: 15px;
+        font-size: 80%;
+        max-width: 455px;
+    }
+    
+    .interage {
+        margin-left: 85px;
+        font-size: 11px;
+    }
+    
+    .reactions {
+        margin-right: 30px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .image {
+        margin: 2px 4px -1px 5px;
+    }
+    
+    .picture_image {
+        width: 15px;
+        height: 15px;
+        margin-left: -2px; 
+    }
+    
+    .number {
+        font-size: 12px;
+        margin: 2px 5px 0px 0px;
+    }
+    
+    .answers {
+        margin-left: 60px;
+        border-left: 1px solid #DEDEDEF5;
+        margin-bottom: 17px;
+    }
+    
+    #icon {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    #baseboard {
+        width: 720px;
+        height: 350px;
+    } 
+
+    #information {
+        width: 570px;
+        font-size: 11px;
+    }
+
+    .center {
+        margin: 30px 0px 50px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 375px) {
+    #container {
+        width: 520px;
+    }
+    
+    h1{ 
+        font-size: 220%;
+        width: 500px;
+        height: 140px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border: 1px solid red;
+    }
+    
+    #video {
+        width: 520px;
+        height: 380px;
+    }
+    
+    #contents {
+        width: 520px;
+       /* height: 500px; */
+        margin-top: 20px;
+    }
+
+    #position {
+        width: 450px;
+        margin-top: 120px;
+        margin-left: 15px;
+    }
+
+    #title_inicial {
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    
+    .linha {
+        width: 480px;
+        margin-bottom: 20px;
+    }
+
+    .label {
+        margin-left: 2px;
+    }
+
+    .picture {
+        width: 50px;
+    }
+    
+    .profile_picture {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .coments {
+        border-radius: 20px;
+        padding: 0px 15px 10px 0px;
+    }
+    
+    .profile_name {
+        font-size: 13px;
+        margin: 8px 0px 0px 15px;
+    }
+
+    
+    .description_M {
+        margin-left: 15px;
+        font-size: 80%;
+        max-width: 380px;
+    }
+    
+    .description_P {
+        margin-left: 15px;
+        font-size: 80%;
+        max-width: 315px;
+    }
+    
+    .interage {
+        margin-left: 85px;
+        font-size: 11px;
+    }
+    
+    .reactions {
+        margin-right: 30px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .image {
+        margin: 2px 4px -1px 5px;
+    }
+    
+    .picture_image {
+        width: 15px;
+        height: 15px;
+        margin-left: -2px; 
+    }
+    
+    .number {
+        font-size: 12px;
+        margin: 2px 5px 0px 0px;
+    }
+    
+    .answers {
+        margin-left: 60px;
+        border-left: 1px solid #DEDEDEF5;
+        margin-bottom: 17px;
+    }
+    
+    #icon {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    #baseboard {
+        width: 520px;
+    } 
+
+    #information {
+        width: 450px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    #container {
+        width: 355px;
+    }
+    
+    h1{
+        font-size: 175%;
+        width: 355px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border: 1px solid red;
+    }
+    
+    #video {
+        width: 355px;
+        height: 230px;
+    }
+    
+    #contents {
+        width: 320px;
+        margin-top: 20px;
+       
+    }
+
+    #position {
+        width: 355px;
+        margin-top: 120px;
+        margin-left: 5px;
+    }
+
+    #title_inicial {
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    
+    .linha {
+        width: 310px;
+        margin-bottom: 20px;
+    }
+
+    .label {
+        margin-left: 2px;
+    }
+
+    .picture {
+        width: 50px;
+    }
+    
+    .profile_picture {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .coments {
+        border-radius: 20px;
+        padding: 0px 15px 10px 0px;
+    }
+    
+    .profile_name {
+        font-size: 13px;
+        margin: 8px 0px 0px 15px;
+    }
+
+    
+    .description_M {
+        margin-left: 15px;
+        font-size: 85%;
+        max-width: 240px;
+    }
+    
+    .description_P {
+        margin-left: 15px;
+        font-size: 85%;
+        max-width: 175px;
+    }
+    
+    .interage {
+        margin-left: 65px;
+        font-size: 11px;
+    }
+    
+    .reactions {
+        margin-right: 15px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .image {
+        margin: 2px 4px -1px 5px;
+    }
+    
+    .picture_image {
+        width: 15px;
+        height: 15px;
+        margin-left: -2px; 
+    }
+    
+    .number {
+        font-size: 12px;
+        margin: 2px 5px 0px 0px;
+    }
+    
+    .answers {
+        margin-left: 60px;
+        margin-bottom: 17px;
+    }
+    
+    #icon {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    #baseboard {
+        width: 355px;
+    } 
+
+    #information {
+        width: 310px;
+        font-size: 11px;
+    }
+}
