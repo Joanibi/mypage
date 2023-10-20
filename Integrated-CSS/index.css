@@ -465,30 +465,30 @@ h1{
 
 @media screen and (max-width: 374px) {
     #container {
-        width: 355px;
+        width: 400px;
     }
     
     h1{
         font-size: 175%;
-        width: 355px;
+        width: 400px;
         padding-top: 20px;
         padding-bottom: 10px;
         border: 1px solid red;
     }
     
     #video {
-        width: 355px;
+        width: 400px;
         height: 230px;
     }
     
     #contents {
-        width: 320px;
+        width: 400px;
         margin-top: 20px;
        
     }
 
     #position {
-        width: 355px;
+        width: 380px;
         margin-top: 120px;
         margin-left: 5px;
     }
