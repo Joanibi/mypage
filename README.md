@@ -1,2 +1,0 @@
-# mypage
-Página de acesso  
