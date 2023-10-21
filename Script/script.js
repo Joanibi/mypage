@@ -3,6 +3,15 @@ window.onload = function () {
     window.addEventListener("contextmenu", e => e.preventDefault());
 } 
 */
+
+document.onkeypress = function (event) {
+    if (e.ctrlKey &&
+        (e.keyCode === 123)) {
+            // alert('not allowed');
+            return false;
+    }
+}
+
 if(!document.querySelector('script[src^="https://player.pandavideo.com.br/api.v2.js"]')){
     let s=document.createElement('script'); 
     s.src='https://player.pandavideo.com.br/api.v2.js'; 
