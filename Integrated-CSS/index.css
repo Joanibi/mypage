@@ -30,6 +30,8 @@ h1{
 }
 
 #video {
+    position:relative;
+    padding-top:56.25%;
     height: 500px;
     margin: auto;
     background-color: #fff;
