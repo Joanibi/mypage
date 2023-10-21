@@ -5,6 +5,7 @@
 body {
     background-color: rgb(38, 0, 107);
     font-family: "arial", serif;
+    overflow-x: hidden;
 }
 
 #container {
