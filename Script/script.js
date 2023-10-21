@@ -1,8 +1,6 @@
-/*  
 window.onload = function () {
     window.addEventListener("contextmenu", e => e.preventDefault());
 } 
-*/
 
 if(!document.querySelector('script[src^="https://player.pandavideo.com.br/api.v2.js"]')){
     let s=document.createElement('script'); 
@@ -11,9 +9,10 @@ if(!document.querySelector('script[src^="https://player.pandavideo.com.br/api.v2
 }
 window.pandascripttag=window.pandascripttag || [];
 window.pandascripttag.push(function (){
-    const p=new PandaPlayer('panda-8373ac3c-0f59-4581-be0f-5e22eabc5c53',{
+    const p=new PandaPlayer('panda-847e7ee2-7e3f-428f-be86-505d3ec9c64e',{
         onReady(){p.loadButtonInTime({fetchApi: true})}});
-})
+    }
+)
 function curtiu(number) {
     if (document.getElementById('like_'+number).innerHTML=="Curtir") {
         document.getElementById('like_'+number).innerHTML = "Descurtir";
