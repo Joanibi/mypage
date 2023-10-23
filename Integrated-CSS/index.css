@@ -41,7 +41,7 @@ h1{
 #botao_redir {
     margin: auto;
     width: 80%;
-    min-height: 40px;
+    min-height: 10px;
 }
 
 #contents {
