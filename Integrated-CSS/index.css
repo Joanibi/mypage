@@ -41,6 +41,7 @@ h1{
 #botao_redir {
     margin: auto;
     width: 80%;
+    min-height: 40px;
 }
 
 #contents {
@@ -52,7 +53,7 @@ h1{
 #position {
     width: 900px;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 .buttonConfig {
