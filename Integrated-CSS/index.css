@@ -38,6 +38,11 @@ h1{
     background-color: #fff;
 }
 
+#botao_redir {
+    margin: auto;
+    width: 80%;
+}
+
 #contents {
     margin: auto;
     background-color: #fff;
